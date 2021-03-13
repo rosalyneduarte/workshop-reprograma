@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #BFFA73;
+}
+
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.botao > a,
+.midias-socias__container-link{
+    text-decoration: none;
+    color: #7E459B;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.botao{
+    margin-top: 8px;
+    background-color: white;
+    border: #7E459B solid 1px ;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px ;
+}
+
+.cabecalho{
+    text-align: center;
+    background-size: auto;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cabecalho__titulo{
+    font-size: 3rem;
+    margin-bottom: 25px;
+    color: #D90404;
+
+}
+
+.cabecalho__texto{
+    font-size: 1.6rem;
+    color: #D90404;
+    
+}
+
+.destaque{
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: #5A2AEB;
+
+}
+
+.sobre-mim{
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+
+.midias-sociais{
+    height: 450px;
+    display: inline;
+    align-items: center;
+}
+
+
+
+.sobre-mim__titulo{
+    font-size: 3rem;
+    color: #D90404;
+    margin-bottom: 55px;  
+    float: left;
+    margin-left: 200px;
+text-align: center;
+}
+
+.sobre-mim__historia{
+    font-size: 3rem;
+    color: #D90404;
+    text-align: center;
+
+}
+
+.sobre-mim__descricao{
+    width: 60%;
+    line-height: 1.5;
+    float: right;
+    margin-right: 200px;
+    text-align: justify;
+
+}
+
+.midias-sociais__container{
+   text-align: center;
+    width: 100ps%;
+    height: 150px;
+    background-color: #D67687 ;
+    padding: 15px;
+    color: #5A2AEB;
+   
+   
+ 
+}
+
+
+
+
+.rodape__paragrafo{
+    text-align: center;
+    color: #868585;
+    margin-bottom: 30px;
+
+}
+
+table,
+td {
+    border: 1px solid #333;
+    border-collapse: collapse;
+    border-style: dotted;
+    border-width:medium ;
+    border-color: #D67687 ;
+}
+
+table{
+    width: 900px;
+    height: 200px;
+    margin-left: 250px;
+    
+    border-collapse: collapse;
+    
+}
+
+.td{
+    font-style: oblique;
+
+}
+
+td ul li {
+    color: #5A2AEB;
+}
+
+
+
+
+
+
+
+
+
+
+
